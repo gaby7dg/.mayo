@@ -1,0 +1,395 @@
+       @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+       @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+       @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+       @font-face {
+       font-family: 'minions';
+       src: url(fonts/minions.ttf) format('truetype');
+    }
+        
+    body{
+    margin: 0;
+    padding: 0;
+    }
+  
+
+    .menuSticky{
+            overflow: hidden;
+            top: 0;
+            position: sticky;
+            height: 200px;
+            margin-top: -140px;
+            margin-bottom: -10px;
+            margin-left: -10px;
+            margin-right: -10px;
+            line-height: 25px;
+        }
+
+        ul {
+            list-style-type: none;
+            overflow: hidden;
+            background-color: #EAC119;
+            margin: 0;
+            box-shadow: -6px 9px 35px -8px rgba(0,0,0,0.67);
+            
+        }
+ 
+        li {
+            float: left;
+        }
+ 
+        .opcion {
+            display: inline-block;
+            color: rgb(0, 0, 0);
+            text-align: center;
+            padding: 14px;
+            text-decoration: none;
+        }
+ 
+        .dropbtn {
+            display: inline-block;
+            color: #000000;
+            text-align: center;
+            padding: 14px;
+            text-decoration: none;
+            font-size: 25px;
+        }
+ 
+        .dropdown {
+            display: none;
+        }
+ 
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f3fc8e;
+            width: 100px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+        }
+ 
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        #lupa img{
+            width: 20px;
+            height: auto;
+            margin-left: 1110px;
+            margin-top: 15px;
+        }
+
+        #marca img{
+            display: none;
+            width: 100px;
+            height: auto;
+        }
+
+/*
+        .material-symbols-outlined {
+         font-variation-settings:
+         'FILL' 0,
+         'wght' 400,
+         'GRAD' 0,
+         'opsz' 24
+        }
+
+        #navbar {
+            padding: 20px;
+            padding-bottom: 2px;
+            position: sticky;
+            top: 0;
+            overflow: hidden;
+            background-color: #EAC119;
+            text-align: justify;
+            margin-top: -10px;
+            margin-bottom: -10px;
+            margin-left: -10px;
+            margin-right: -10px;
+            box-shadow: -6px 9px 35px -8px rgba(0,0,0,0.67);
+        }
+*/           
+ 
+        a{
+            color: #000000;
+            padding: 14px;
+            font-size: 17px;
+            font-family: 'minions';
+            font-style: bold;
+            text-decoration: none;
+        }
+      
+        h2{
+            text-align: left;
+            font-family: 'minions';
+            font-style: bold;
+            color: rgb(0, 0, 0);
+            font-size: 80px;
+            padding-left: 30px;
+            padding-right: 30px;
+        }
+
+        h3{
+            color: #000000;
+            text-align: left;
+            font-family: 'minions';
+            font-style: bold;
+            font-size: 40px;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+
+        h4{
+            color: #000000;
+            text-align: center;
+            font-family: 'minions';
+            font-style: bold;
+            font-size: 20px;
+            margin-block: px;
+        }
+
+
+        p{
+            text-align: left;
+            font-family: "Comfortaa", sans-serif;
+            width: auto;
+            padding: 10px;
+            font-size: 100%;
+        }
+    
+        header{
+            background-color: #ffffff;
+            margin-right: -10px;
+             display: flex;               
+             justify-content: space-between; 
+             align-items: flex-end; 
+        }
+
+        nav{
+            background-color:  #ffffff;
+            margin-left: -10px;
+        }
+
+        section{
+            background-color:  #ffffff;
+            margin-right: -10px;
+        }
+
+        article{
+            background-color:  #ffffff;
+            margin-left: -10px;
+        }
+
+        footer{
+            padding: 20px;
+            background-color: #EAC119;
+            margin-top: -2px;
+            margin-bottom: -10px;
+            margin-left: -10px;
+            margin-right: -10px;
+        }
+
+        .footer{
+            text-align: center;
+            font-family: "Comfortaa", sans-serif;
+            width: auto;
+        }
+
+       .bloque { 
+            display: flex;
+            align-items: center;
+            gap: 40px;
+        }
+
+        .bloque.reversa {
+            flex-direction: row-reverse;
+        }
+
+        .imagen img {
+            width: 1000px;
+            height: auto;
+            margin-bottom: -2px;
+            margin-top: -2px;
+        }
+
+        .portada img {
+            width: 1000px;
+            height: auto;
+            margin-bottom: -2px;
+            margin-top: -2px;
+        }
+
+        .texto {
+            max-width: 400px;
+        }
+
+        .contenedor {
+          display: flex;
+          gap: 30px; 
+        }
+
+        .columna {
+          flex: 1;
+          padding-inline: 50px;
+          text-align: center;
+        }
+
+        .icono {
+          text-align: right;
+          margin-right: 10px;
+        }
+
+        #logo img{
+            width: 340px;
+            height: auto;
+            margin-left: 60px;
+            margin-top: 360px;
+        }
+
+        .insta{
+            text-align: center;
+            font-family: "Comfortaa", sans-serif;
+            width: auto;
+            padding: 10px;
+            font-size: 100%;
+        }
+
+        /*Tablet*/
+        @media (max-width: 768px) {
+
+            .portada img{
+                width: 450px;
+                height: auto;
+            }
+
+            .imagen img{
+                width: 450px;
+                height: auto;
+            }
+
+            #logo img{ 
+                width: 80%;
+                margin-left: 30px;
+                margin-top: 130px;
+            }
+
+            p{
+                font-size: 70%;
+                width: 80%;
+            }
+
+            h3{
+                font-size: 20px;  
+            }
+
+            .bloque.reversa{
+                margin-left: 30px;
+                height: auto ;
+            }
+
+            .columna{
+                padding-inline: 10px;
+            }
+
+            .insta{
+            font-size: 70%;
+            }
+
+            #lupa img{
+            margin-left: 380px;
+        }
+            
+        }
+    
+
+        /*Celular*/
+        @media (max-width: 480px) {
+
+            .portada img{
+                width: 480px;
+                height: auto;
+            }
+
+            .imagen img{
+                width: 260px;
+                height: auto;
+            }
+
+            #logo img{ 
+                display: none;
+            }
+
+            p{
+                font-size: 55%;
+                width: 80%;
+            }
+
+            a{
+                font-size: 10px;
+            }
+
+            h3{
+                font-size: 15px;  
+            }
+
+            h4{
+                font-size: 15px;
+            }
+
+            .bloque.reversa{
+                margin-left: 30px;
+                height: auto ;
+            }
+
+            .columna{
+                padding-inline: 2px;
+            }
+
+            .insta{
+                font-size: 60%;
+            }
+
+            .bloque { 
+                display: flex;
+                align-items: center;
+                gap: 20px;
+            }
+
+           .contenedor{
+            font-size: 80%;
+           }
+
+           footer{
+            padding: 5px;
+            background-color: #EAC119;
+            margin-top: -2px;
+            margin-bottom: -10px;
+            margin-left: -10px;
+            margin-right: -10px;
+        }
+
+        #marca img{
+            display: flex;
+            width: 100px;
+            height: auto;
+            margin-left: 110px;
+            margin-top: 5px;
+            
+        }
+
+        .dropdown{
+            display: inline-block;
+        }
+
+        .opcion{
+            display: none;
+        }
+
+        #lupa img{
+            margin-left: 100px;
+        }
+
+            
+        }
+
+ 
